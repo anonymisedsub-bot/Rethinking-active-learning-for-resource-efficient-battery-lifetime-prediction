@@ -1,0 +1,8 @@
+term,raw_term,ss,df,F,p_value,variance_contribution_pct,full_model_r2,response,term_code,term_class,term_order,response_code,response_label
+Dataset,"C(dataset, Sum)",25178.93436051036,7.0,42.363279879851426,4.059459922738577e-20,74.45071100164536,0.8594051995732178,Attainable gain,A,Main effect,0,attainable_gain,Attainable full-pool gain
+Feature,"C(feature_set, Sum)",462.1505520499141,4.0,1.3607356284383536,0.2592246874973677,1.366516815099303,0.8594051995732178,Attainable gain,B,Main effect,1,attainable_gain,Attainable full-pool gain
+Model,"C(model, Sum)",68.10761500753293,2.0,0.40106609371183155,0.6715137153019995,0.20138502644058603,0.8594051995732178,Attainable gain,C,Main effect,2,attainable_gain,Attainable full-pool gain
+Dataset x Feature,"C(dataset, Sum):C(feature_set, Sum)",992.7714149694496,28.0,0.41758174419632627,0.9930996428473985,2.9354910993575056,0.8594051995732178,Attainable gain,A×B,Pairwise interaction,4,attainable_gain,Attainable full-pool gain
+Dataset x Model,"C(dataset, Sum):C(model, Sum)",1641.042144302357,14.0,1.3805176712074156,0.19345132226785078,4.8523401617263175,0.8594051995732178,Attainable gain,A×C,Pairwise interaction,5,attainable_gain,Attainable full-pool gain
+Feature x Model,"C(feature_set, Sum):C(model, Sum)",721.7359660027598,8.0,1.0625237153879434,0.402226175177614,2.134075853052729,0.8594051995732178,Attainable gain,B×C,Pairwise interaction,7,attainable_gain,Attainable full-pool gain
+Residual,Residual,4754.860234036943,56.0,,,14.05948004267822,0.8594051995732178,Attainable gain,Residual,Residual,10,attainable_gain,Attainable full-pool gain

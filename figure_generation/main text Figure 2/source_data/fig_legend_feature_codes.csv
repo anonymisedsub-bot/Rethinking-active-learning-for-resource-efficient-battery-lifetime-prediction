@@ -1,0 +1,6 @@
+code,label,order
+F1,set1_dQn_m,0
+F2,set2_early_soh,1
+F3,set3_features,2
+F4,set4_features_metadata,3
+F5,set5_features_metadata_corr95,4

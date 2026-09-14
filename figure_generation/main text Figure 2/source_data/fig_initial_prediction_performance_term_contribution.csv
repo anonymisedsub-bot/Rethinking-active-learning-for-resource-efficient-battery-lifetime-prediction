@@ -1,0 +1,12 @@
+term,raw_term,ss,df,F,p_value,variance_contribution_pct,full_model_r2,term_code,term_class,term_order,response_code,response_label
+Dataset,"C(dataset, Sum)",60158.05631404469,7.0,180.06754869349498,5.216614852629026e-73,68.79354356994173,0.9115843380585991,A,Main effect,0,initial_prediction,Initialisation prediction performance
+Feature,"C(feature_set, Sum)",1205.449510609,4.0,6.314351153617718,9.541744079338397e-05,1.3784877456236024,0.9115843380585991,B,Main effect,1,initial_prediction,Initialisation prediction performance
+Model,"C(model, Sum)",427.3422022282031,2.0,4.476983405577807,0.012808621339046526,0.4886857423516408,0.9115843380585991,C,Main effect,2,initial_prediction,Initialisation prediction performance
+Initialisation,"C(initialisation, Sum)",2861.758481886059,1.0,59.961525762595834,9.909514256310083e-13,3.2725543156273305,0.9115843380585991,D,Main effect,3,initial_prediction,Initialisation prediction performance
+Dataset x Feature,"C(dataset, Sum):C(feature_set, Sum)",2122.8270633012057,28.0,1.5885331450594797,0.040205606760620745,2.4275517697630256,0.9115843380585991,A×B,Pairwise interaction,4,initial_prediction,Initialisation prediction performance
+Dataset x Model,"C(dataset, Sum):C(model, Sum)",1389.3444860254754,14.0,2.0793213014016896,0.015394803805455083,1.5887802281061716,0.9115843380585991,A×C,Pairwise interaction,5,initial_prediction,Initialisation prediction performance
+Dataset x Initialisation,"C(dataset, Sum):C(initialisation, Sum)",10978.653276900632,7.0,32.86175293309418,4.120672605947714e-28,12.55460214008646,0.9115843380585991,A×D,Pairwise interaction,6,initial_prediction,Initialisation prediction performance
+Feature x Model,"C(feature_set, Sum):C(model, Sum)",162.2052304198747,8.0,0.4248293996598502,0.9049061413693991,0.1854892473239191,0.9115843380585991,B×C,Pairwise interaction,7,initial_prediction,Initialisation prediction performance
+Feature x Initialisation,"C(feature_set, Sum):C(initialisation, Sum)",325.2054812816895,4.0,1.7034820519827667,0.15171113662919897,0.3718876376082771,0.9115843380585991,B×D,Pairwise interaction,8,initial_prediction,Initialisation prediction performance
+Model x Initialisation,"C(model, Sum):C(initialisation, Sum)",84.69388608444902,2.0,0.8872821841066255,0.4137647535716097,0.09685140942790031,0.9115843380585991,C×D,Pairwise interaction,9,initial_prediction,Initialisation prediction performance
+Residual,Residual,7731.705759140965,162.0,,,8.841566194140091,0.9115843380585991,Residual,Residual,10,initial_prediction,Initialisation prediction performance

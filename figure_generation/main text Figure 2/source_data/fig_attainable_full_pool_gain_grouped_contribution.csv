@@ -1,0 +1,4 @@
+factor,grouped_contribution_pp,full_model_r2,reduced_model_r2,response,factor_code,factor_order,variance_explained_pct,response_code,response_label
+Dataset,82.23854226272918,0.8594051995732178,0.03701977694592595,Attainable gain,A,0,82.23854226272918,attainable_gain,Attainable full-pool gain
+Feature set,6.436083767509537,0.8594051995732178,0.7950443618981224,Attainable gain,B,1,6.436083767509537,attainable_gain,Attainable full-pool gain
+Prediction model,7.187801041219622,0.8594051995732178,0.7875271891610216,Attainable gain,C,2,7.187801041219622,attainable_gain,Attainable full-pool gain

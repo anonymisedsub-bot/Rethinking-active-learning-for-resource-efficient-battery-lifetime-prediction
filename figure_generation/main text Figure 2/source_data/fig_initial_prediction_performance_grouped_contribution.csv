@@ -1,0 +1,5 @@
+factor,grouped_contribution_pp,full_model_r2,reduced_model_r2,factor_code,factor_order,variance_explained_pct,response_code,response_label
+Dataset,85.36447770789724,0.9115843380585991,0.057939560979626714,A,0,85.36447770789724,initial_prediction,Initialisation prediction performance
+Feature set,4.363416400318809,0.9115843380585991,0.867950174055411,B,1,4.363416400318809,initial_prediction,Initialisation prediction performance
+Prediction model,2.3598066272096485,0.9115843380585991,0.8879862717865026,C,2,2.3598066272096485,initial_prediction,Initialisation prediction performance
+Initialisation strategy,16.29589550274998,0.9115843380585991,0.7486253830310993,D,3,16.29589550274998,initial_prediction,Initialisation prediction performance

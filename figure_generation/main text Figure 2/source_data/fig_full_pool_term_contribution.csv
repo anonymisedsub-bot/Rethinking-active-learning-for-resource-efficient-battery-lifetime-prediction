@@ -1,0 +1,8 @@
+term,raw_term,ss,df,F,p_value,variance_contribution_pct,full_model_r2,response,term_code,term_class,term_order,response_code,response_label
+Dataset,"C(dataset, Sum)",8384.063063547486,7.0,40.54742171762796,1.1159091491833184e-19,60.13143977842971,0.881360762818046,Full-pool MAPE,A,Main effect,0,full_pool,Full-pool prediction performance
+Feature,"C(feature_set, Sum)",1463.420921633991,4.0,12.385570506536178,2.778925980906248e-07,10.495818835419714,0.881360762818046,Full-pool MAPE,B,Main effect,1,full_pool,Full-pool prediction performance
+Model,"C(model, Sum)",11.790778420906188,2.0,0.19958101637090456,0.8196539153019751,0.08456478406515426,0.881360762818046,Full-pool MAPE,C,Main effect,2,full_pool,Full-pool prediction performance
+Dataset x Feature,"C(dataset, Sum):C(feature_set, Sum)",854.4314883949019,28.0,1.0330609880369133,0.44613636673410234,6.128078379156755,0.881360762818046,Full-pool MAPE,A×B,Pairwise interaction,4,full_pool,Full-pool prediction performance
+Dataset x Model,"C(dataset, Sum):C(model, Sum)",1296.7384695089513,14.0,3.135675458433596,0.0011791498054133755,9.300353610968395,0.881360762818046,Full-pool MAPE,A×C,Pairwise interaction,5,full_pool,Full-pool prediction performance
+Feature x Model,"C(feature_set, Sum):C(model, Sum)",278.2751967777337,8.0,1.1775822727963097,0.32889180769317145,1.9958208937649404,0.881360762818046,Full-pool MAPE,B×C,Pairwise interaction,7,full_pool,Full-pool prediction performance
+Residual,Residual,1654.1743387649276,56.0,,,11.863923718195402,0.881360762818046,Full-pool MAPE,Residual,Residual,10,full_pool,Full-pool prediction performance

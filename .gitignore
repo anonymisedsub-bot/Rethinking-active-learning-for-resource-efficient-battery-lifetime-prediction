@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.idea/
+.vscode/
+
+# Locally generated training results are intentionally excluded from this release.
+active_learning/outputs/
+active_learning/outputs_AL/
+deep_learning_baseline/outputs/
+deep_learning_baseline/outputs_DL_benchmark/
+outputs_AL_merged/
+outputs_DL_benchmark_merged/
+old_4_dataset_outputs/
+parallel_job_benchmark_outputs/
+
+# Keep the curated manuscript renderings distributed in figure_generation/.

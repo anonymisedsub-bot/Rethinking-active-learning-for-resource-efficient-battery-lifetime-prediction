@@ -1,0 +1,6 @@
+order,code,direction,theta_start_deg,theta_end_deg
+0,FS 1,clockwise,140.0,120.0
+1,FS 2,clockwise,120.0,100.0
+2,FS 3,clockwise,100.0,80.0
+3,FS 4,clockwise,80.0,60.0
+4,FS 5,clockwise,60.0,40.0

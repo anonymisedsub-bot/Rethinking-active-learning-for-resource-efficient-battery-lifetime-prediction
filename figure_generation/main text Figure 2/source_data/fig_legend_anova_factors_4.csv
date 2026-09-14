@@ -1,0 +1,5 @@
+code,label,color,order
+A,Dataset,#3B6FB6,0
+B,Feature set,#4E9F62,1
+C,Prediction model,#D97947,2
+D,Initialisation strategy,#8A68A8,3

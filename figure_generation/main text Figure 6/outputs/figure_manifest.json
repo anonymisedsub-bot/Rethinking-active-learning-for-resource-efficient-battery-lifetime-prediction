@@ -1,0 +1,2086 @@
+{
+  "figure_stem": "fig_nfp_performance_indicator_summary",
+  "backend": "Python/matplotlib",
+  "figure_archetype": "asymmetric mixed-modality figure",
+  "figure_size_inches": [
+    8.4,
+    9.8
+  ],
+  "figure_aspect_ratio_width_to_height": [
+    3,
+    3.5
+  ],
+  "panel_a_plot_height_mm": 55.0,
+  "font_size_delta_points": 2.0,
+  "heatmap_colorbar": {
+    "label": "Required pool fraction (%)",
+    "ticks": [
+      30.0,
+      45.0,
+      60.0,
+      75.0
+    ],
+    "value_range": [
+      30.0,
+      75.0
+    ],
+    "colormap_colors": [
+      "#3C5488",
+      "#F7F7F3",
+      "#E64B35"
+    ],
+    "bubbles": "none",
+    "outline": "none"
+  },
+  "heatmap_cell_bubbles": {
+    "count": 0,
+    "encoding": "none"
+  },
+  "panel_a_small_multiples": {
+    "rows": 2,
+    "columns": 3,
+    "rules": [
+      "diversity_oneshot",
+      "diversity_iterative",
+      "coverage",
+      "exploration",
+      "exploitation",
+      "hybrid"
+    ],
+    "comparator": "random_selection",
+    "shared_x_axis_label": "Required pool fraction (%)",
+    "shared_y_axis_label": "Relative total duration (% of random)",
+    "shared_limits": true,
+    "shared_legend": true,
+    "shared_legend_title": "",
+    "rule_label_position": "above_center",
+    "rule_label_lines": 1
+  },
+  "publication_dpi_required": 600,
+  "publication_dpi_enforced": true,
+  "export_policy": "PNG only",
+  "export_formats": [
+    "png"
+  ],
+  "panel_types": {
+    "a": "tradeoff_2x3_small_multiples",
+    "b": "nfp95_heatmap",
+    "c": "tests_threshold_trend",
+    "d": "fastest_win_count",
+    "e": "duration_cycles_dataset_threshold_half_violin",
+    "f": "duration_efc_dataset_threshold_half_violin",
+    "g": "duration_weeks_dataset_threshold_half_violin",
+    "h": "dataset_pool_fraction_threshold_horizontal_half_violin"
+  },
+  "panel_bounds": {
+    "a": [
+      0.08,
+      0.7190454764582999,
+      0.5188233220847396,
+      0.2209545235417001
+    ],
+    "b": [
+      0.6845376077990253,
+      0.7310975413787562,
+      0.24371953505811772,
+      0.2089024586212438
+    ],
+    "c": [
+      0.115,
+      0.530525477084711,
+      0.22285714285714286,
+      0.11378402107111496
+    ],
+    "d": [
+      0.4235714285714286,
+      0.530525477084711,
+      0.22285714285714286,
+      0.11378402107111496
+    ],
+    "e": [
+      0.115,
+      0.33227141602909815,
+      0.5314285714285715,
+      0.11378402107111502
+    ],
+    "f": [
+      0.115,
+      0.1299999999999999,
+      0.22285714285714286,
+      0.11378402107111507
+    ],
+    "g": [
+      0.4235714285714286,
+      0.1299999999999999,
+      0.22285714285714286,
+      0.11378402107111507
+    ],
+    "h": [
+      0.7501428571428572,
+      0.1299999999999999,
+      0.20485714285714296,
+      0.47832685312931145
+    ]
+  },
+  "panel_axes_size_inches": {
+    "a": [
+      4.358115905511813,
+      2.165354330708661
+    ],
+    "b": [
+      2.047244094488189,
+      2.0472440944881893
+    ],
+    "c": [
+      1.872,
+      1.1150834064969266
+    ],
+    "d": [
+      1.872,
+      1.1150834064969266
+    ],
+    "e": [
+      4.464,
+      1.1150834064969273
+    ],
+    "f": [
+      1.872,
+      1.1150834064969277
+    ],
+    "g": [
+      1.872,
+      1.1150834064969277
+    ],
+    "h": [
+      1.720800000000001,
+      4.687603160667252
+    ]
+  },
+  "panel_crop_size_inches": {
+    "a": [
+      4.55639803184602,
+      2.2811336668853883
+    ],
+    "b": [
+      3.2641039760851056,
+      2.761432013008558
+    ],
+    "c": [
+      2.324690972222222,
+      1.623632787211446
+    ],
+    "d": [
+      2.8781709039548025,
+      1.5377743787191482
+    ],
+    "e": [
+      5.112522222222222,
+      1.8203929909277154
+    ],
+    "f": [
+      2.5205222222222226,
+      1.7163929909277156
+    ],
+    "g": [
+      2.476472222222222,
+      1.7163929909277156
+    ],
+    "h": [
+      2.5469625000000002,
+      5.508524846966148
+    ]
+  },
+  "split_panel_exports": {
+    "a": {
+      "png": {
+        "bytes": 179984,
+        "sha256": "0fe4b1aed2e40c8b5728956bf934deb75264bf2ffd8f94bf481c604851cc6e2c",
+        "pixels": [
+          2733,
+          1368
+        ],
+        "mode": "RGB",
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      }
+    },
+    "b": {
+      "png": {
+        "bytes": 272969,
+        "sha256": "ff77da81bd4ba48cc1089c59c1524845a97c9e03ec7b1718e4ca158841ade81a",
+        "pixels": [
+          1958,
+          1656
+        ],
+        "mode": "RGB",
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      }
+    },
+    "c": {
+      "png": {
+        "bytes": 114714,
+        "sha256": "e0ff0e0d8212945437b61cf9b0135bc8862c4f06d0c60ee1af7de7886ab49b83",
+        "pixels": [
+          1394,
+          974
+        ],
+        "mode": "RGB",
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      }
+    },
+    "d": {
+      "png": {
+        "bytes": 96205,
+        "sha256": "dc3ff6148cab6b83123890eb2b580f81276bcf4637b487a52176318054532e61",
+        "pixels": [
+          1726,
+          922
+        ],
+        "mode": "RGB",
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      }
+    },
+    "e": {
+      "png": {
+        "bytes": 303418,
+        "sha256": "0c89514404879745e71cb9ec9b54d6fc8774983d240edde7961fe4d5ba341b97",
+        "pixels": [
+          3067,
+          1092
+        ],
+        "mode": "RGB",
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      }
+    },
+    "f": {
+      "png": {
+        "bytes": 157245,
+        "sha256": "0a931bb4acd98d6050d175ad291c2fdc9fd45c80f2247ce796c83bbe8376b822",
+        "pixels": [
+          1512,
+          1029
+        ],
+        "mode": "RGB",
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      }
+    },
+    "g": {
+      "png": {
+        "bytes": 121169,
+        "sha256": "1659e6e735043aad519d520424430e3a1dbba6b2bc4b275099f2cc747cc688f8",
+        "pixels": [
+          1485,
+          1029
+        ],
+        "mode": "RGB",
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      }
+    },
+    "h": {
+      "png": {
+        "bytes": 227041,
+        "sha256": "14b95217ec6ea3ae6190613ffca48e5d249c80164672d3a5b65a8e45eed31ead",
+        "pixels": [
+          1528,
+          3305
+        ],
+        "mode": "RGB",
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      }
+    }
+  },
+  "standalone_legend_exports": {
+    "a": {
+      "png": {
+        "bytes": 37395,
+        "sha256": "0b49c147103c101dabb371596898a52a0ec4e4a77b3628f038bdef506ce8eb14",
+        "pixels": [
+          2429,
+          143
+        ],
+        "mode": "RGB",
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      }
+    },
+    "c": {
+      "png": {
+        "bytes": 57976,
+        "sha256": "6c845dd105759d2396b21f23a6c09c7b36556094d56275732fb87e7ae5678769",
+        "pixels": [
+          2127,
+          310
+        ],
+        "mode": "RGB",
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      }
+    },
+    "e": {
+      "png": {
+        "bytes": 19532,
+        "sha256": "7e603f3a73118fc0335165e502b9f4e3753ca960b1ed734ea6fc0a0d87e6bac7",
+        "pixels": [
+          1161,
+          226
+        ],
+        "mode": "RGB",
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      }
+    },
+    "f": {
+      "png": {
+        "bytes": 19532,
+        "sha256": "7e603f3a73118fc0335165e502b9f4e3753ca960b1ed734ea6fc0a0d87e6bac7",
+        "pixels": [
+          1161,
+          226
+        ],
+        "mode": "RGB",
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      }
+    },
+    "g": {
+      "png": {
+        "bytes": 19532,
+        "sha256": "7e603f3a73118fc0335165e502b9f4e3753ca960b1ed734ea6fc0a0d87e6bac7",
+        "pixels": [
+          1161,
+          226
+        ],
+        "mode": "RGB",
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      }
+    },
+    "h": {
+      "png": {
+        "bytes": 19733,
+        "sha256": "960257168801f4dbcef965ddb9ea1286bb7acb8d7e5808b4aeb85df76d2074e0",
+        "pixels": [
+          1161,
+          226
+        ],
+        "mode": "RGB",
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      }
+    }
+  },
+  "split_panels_contain_legends": true,
+  "embedded_split_panel_legends": [
+    "e",
+    "f",
+    "g",
+    "h"
+  ],
+  "export_only_legend_panels": [
+    "c"
+  ],
+  "violin_panel_legend_position": "above_center",
+  "duration_y_axis_upper_factor": 1.25,
+  "panel_h_y_axis_limits": [
+    7.55,
+    -0.55
+  ],
+  "composite_retains_legends": true,
+  "heatmap_colorbar_separated": false,
+  "panel_file_stems": {
+    "a": "fig_efficiency_tradeoff",
+    "b": "fig_nfp95_pool_fraction",
+    "c": "fig_full_life_test_sensitivity",
+    "d": "fig_primary_strategy_wins",
+    "e": "fig_duration_cycles",
+    "f": "fig_duration_efc",
+    "g": "fig_duration_weeks",
+    "h": "fig_pool_fraction_sensitivity"
+  },
+  "panel_titles": "off",
+  "panel_letters": false,
+  "axis_linewidth_points": 0.4,
+  "x_tick_label_rotation_degrees": {
+    "b": [
+      35.0
+    ],
+    "e": [
+      0.0
+    ],
+    "f": [
+      0.0
+    ],
+    "g": [
+      0.0
+    ]
+  },
+  "marker_alpha": 0.6,
+  "acquisition_marker_by_rule": {
+    "random_selection": "o",
+    "diversity_oneshot": "s",
+    "diversity_iterative": "^",
+    "coverage": "D",
+    "exploration": "v",
+    "exploitation": "P",
+    "hybrid": "X"
+  },
+  "duration_x_axis": "dataset",
+  "duration_x_axis_label": "",
+  "duration_tick_label_wrapping": {
+    "e": "hyphenated names split after the hyphen",
+    "f": "single line",
+    "g": "single line"
+  },
+  "duration_point_marker_encoding": "acquisition rule",
+  "duration_point_marker_by_acquisition": {
+    "random_selection": "o",
+    "diversity_oneshot": "s",
+    "diversity_iterative": "^",
+    "coverage": "D",
+    "exploration": "v",
+    "exploitation": "P",
+    "hybrid": "X"
+  },
+  "duration_threshold_median_connectors": {
+    "panels": {
+      "e": 5,
+      "f": 2,
+      "g": 1
+    },
+    "threshold_order": [
+      92,
+      95,
+      98
+    ],
+    "color": "#000000",
+    "linewidth_points": 0.65,
+    "alpha": 0.65,
+    "meaning": "absolute duration change across NFP targets within dataset"
+  },
+  "duration_threshold_offsets_by_panel": {
+    "e": [
+      -0.28,
+      0.0,
+      0.28
+    ],
+    "f": [
+      -0.28,
+      0.0,
+      0.28
+    ],
+    "g": [
+      -0.34,
+      0.0,
+      0.34
+    ]
+  },
+  "panel_h_threshold_offsets_y": {
+    "92": -0.24,
+    "95": 0.0,
+    "98": 0.24
+  },
+  "duration_panel_datasets": {
+    "e": [
+      "MIT",
+      "LSD_Primary",
+      "LSD_Second",
+      "HUST",
+      "Formation"
+    ],
+    "f": [
+      "KIT",
+      "TRI_Tesla"
+    ],
+    "g": [
+      "ISU_ILCC"
+    ]
+  },
+  "layout_audit": {
+    "all_text_within_canvas": true,
+    "all_legends_within_canvas": true,
+    "legends_clear_of_data_axes": true,
+    "panel_text_clear_of_other_data_axes": true
+  },
+  "panel_statistics": {
+    "a": {
+      "statistical_unit": "dataset-level dataset x acquisition x NFP group median",
+      "center": "median across datasets",
+      "spread": "Q25-Q75 across datasets",
+      "n_definition": "8 datasets per acquisition x NFP point",
+      "baseline": "random selection within the same dataset and NFP",
+      "threshold_role": "NFP95 primary; NFP92 and NFP98 sensitivity",
+      "input_group_n": {
+        "column": "n_observations",
+        "definition": "positive, reached feature-set x model x trial observations contributing to each dataset x acquisition x NFP group median",
+        "minimum": 107,
+        "maximum": 146,
+        "exact_values": "source_data/fig_nfp_performance_indicator_summary.csv"
+      }
+    },
+    "b": {
+      "statistical_unit": "one dataset x acquisition x NFP95 group",
+      "center": "within-group median across positive, reached observations",
+      "spread": "not drawn; within-group Q25-Q75 retained in source data",
+      "n_definition": "one dataset x acquisition group per cell; exact observation n in source data",
+      "threshold_role": "primary NFP95 only",
+      "input_group_n": {
+        "column": "n_observations",
+        "definition": "positive, reached feature-set x model x trial observations contributing to each dataset x acquisition x NFP group median",
+        "minimum": 107,
+        "maximum": 146,
+        "exact_values": "source_data/fig_nfp_performance_indicator_summary.csv"
+      }
+    },
+    "c": {
+      "statistical_unit": "dataset-level dataset x acquisition x NFP group median",
+      "center": "median across datasets",
+      "spread": "not drawn",
+      "n_definition": "8 datasets per acquisition x NFP point",
+      "threshold_role": "NFP95 primary; NFP92 and NFP98 sensitivity",
+      "input_group_n": {
+        "column": "n_observations",
+        "definition": "positive, reached feature-set x model x trial observations contributing to each dataset x acquisition x NFP group median",
+        "minimum": 107,
+        "maximum": 146,
+        "exact_values": "source_data/fig_nfp_performance_indicator_summary.csv"
+      }
+    },
+    "d": {
+      "statistical_unit": "dataset at NFP95",
+      "center": "count of datasets with minimum median total duration at NFP95",
+      "spread": "not applicable; count statistic",
+      "n_definition": "8 datasets at primary NFP95",
+      "threshold_role": "primary",
+      "input_group_n": {
+        "column": "n_observations",
+        "definition": "positive, reached feature-set x model x trial observations contributing to each dataset x acquisition x NFP group median",
+        "minimum": 107,
+        "maximum": 146,
+        "exact_values": "source_data/fig_nfp_performance_indicator_summary.csv"
+      }
+    },
+    "e": {
+      "statistical_unit": "trial-level median across eligible feature-set x model configurations within dataset x acquisition x NFP x trial",
+      "center": "median across acquisition-trial medians within dataset x NFP",
+      "spread": "half-violin density and Q25-Q75 across acquisition-trial medians",
+      "n_definition": "70 acquisition-trial medians per dataset x NFP threshold (7 acquisition rules x 10 trials)",
+      "absolute_duration_unit": "cycles",
+      "threshold_role": "NFP95 primary; NFP92 and NFP98 sensitivity distributions",
+      "input_group_n": {
+        "column": "n_observations",
+        "definition": "positive, reached feature-set x model x trial observations contributing to each dataset x acquisition x NFP group median",
+        "minimum": 107,
+        "maximum": 146,
+        "exact_values": "source_data/fig_nfp_performance_indicator_summary.csv"
+      }
+    },
+    "f": {
+      "statistical_unit": "trial-level median across eligible feature-set x model configurations within dataset x acquisition x NFP x trial",
+      "center": "median across acquisition-trial medians within dataset x NFP",
+      "spread": "half-violin density and Q25-Q75 across acquisition-trial medians",
+      "n_definition": "70 acquisition-trial medians per dataset x NFP threshold (7 acquisition rules x 10 trials)",
+      "absolute_duration_unit": "EFC",
+      "threshold_role": "NFP95 primary; NFP92 and NFP98 sensitivity distributions",
+      "input_group_n": {
+        "column": "n_observations",
+        "definition": "positive, reached feature-set x model x trial observations contributing to each dataset x acquisition x NFP group median",
+        "minimum": 107,
+        "maximum": 146,
+        "exact_values": "source_data/fig_nfp_performance_indicator_summary.csv"
+      }
+    },
+    "g": {
+      "statistical_unit": "trial-level median across eligible feature-set x model configurations within dataset x acquisition x NFP x trial",
+      "center": "median across acquisition-trial medians within dataset x NFP",
+      "spread": "half-violin density and Q25-Q75 across acquisition-trial medians",
+      "n_definition": "70 acquisition-trial medians per dataset x NFP threshold (7 acquisition rules x 10 trials)",
+      "absolute_duration_unit": "weeks",
+      "threshold_role": "NFP95 primary; NFP92 and NFP98 sensitivity distributions",
+      "input_group_n": {
+        "column": "n_observations",
+        "definition": "positive, reached feature-set x model x trial observations contributing to each dataset x acquisition x NFP group median",
+        "minimum": 107,
+        "maximum": 146,
+        "exact_values": "source_data/fig_nfp_performance_indicator_summary.csv"
+      }
+    },
+    "h": {
+      "statistical_unit": "dataset-trial median across 7 acquisition-specific trial medians",
+      "center": "median across 10 dataset-trial medians",
+      "spread": "horizontal half-violin density and Q25-Q75 across 10 dataset-trial medians",
+      "n_definition": "10 dataset-trial medians per dataset x NFP threshold; each trial median is across 7 acquisition rules",
+      "threshold_role": "NFP95 primary; NFP92 and NFP98 sensitivity",
+      "input_group_n": {
+        "column": "n_observations",
+        "definition": "positive, reached feature-set x model x trial observations contributing to each dataset x acquisition x NFP group median",
+        "minimum": 107,
+        "maximum": 146,
+        "exact_values": "source_data/fig_nfp_performance_indicator_summary.csv"
+      }
+    }
+  },
+  "exact_group_n": [
+    {
+      "dataset": "MIT",
+      "acquisition": "random_selection",
+      "nfp_percent": 92,
+      "n_observations": 140,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "MIT",
+      "acquisition": "random_selection",
+      "nfp_percent": 95,
+      "n_observations": 140,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "MIT",
+      "acquisition": "random_selection",
+      "nfp_percent": 98,
+      "n_observations": 140,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "MIT",
+      "acquisition": "diversity_oneshot",
+      "nfp_percent": 92,
+      "n_observations": 140,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "MIT",
+      "acquisition": "diversity_oneshot",
+      "nfp_percent": 95,
+      "n_observations": 140,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "MIT",
+      "acquisition": "diversity_oneshot",
+      "nfp_percent": 98,
+      "n_observations": 140,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "MIT",
+      "acquisition": "diversity_iterative",
+      "nfp_percent": 92,
+      "n_observations": 140,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "MIT",
+      "acquisition": "diversity_iterative",
+      "nfp_percent": 95,
+      "n_observations": 140,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "MIT",
+      "acquisition": "diversity_iterative",
+      "nfp_percent": 98,
+      "n_observations": 140,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "MIT",
+      "acquisition": "coverage",
+      "nfp_percent": 92,
+      "n_observations": 140,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "MIT",
+      "acquisition": "coverage",
+      "nfp_percent": 95,
+      "n_observations": 140,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "MIT",
+      "acquisition": "coverage",
+      "nfp_percent": 98,
+      "n_observations": 140,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "MIT",
+      "acquisition": "exploration",
+      "nfp_percent": 92,
+      "n_observations": 140,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "MIT",
+      "acquisition": "exploration",
+      "nfp_percent": 95,
+      "n_observations": 140,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "MIT",
+      "acquisition": "exploration",
+      "nfp_percent": 98,
+      "n_observations": 140,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "MIT",
+      "acquisition": "exploitation",
+      "nfp_percent": 92,
+      "n_observations": 140,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "MIT",
+      "acquisition": "exploitation",
+      "nfp_percent": 95,
+      "n_observations": 140,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "MIT",
+      "acquisition": "exploitation",
+      "nfp_percent": 98,
+      "n_observations": 140,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "MIT",
+      "acquisition": "hybrid",
+      "nfp_percent": 92,
+      "n_observations": 140,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "MIT",
+      "acquisition": "hybrid",
+      "nfp_percent": 95,
+      "n_observations": 140,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "MIT",
+      "acquisition": "hybrid",
+      "nfp_percent": 98,
+      "n_observations": 140,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "ISU_ILCC",
+      "acquisition": "random_selection",
+      "nfp_percent": 92,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "ISU_ILCC",
+      "acquisition": "random_selection",
+      "nfp_percent": 95,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "ISU_ILCC",
+      "acquisition": "random_selection",
+      "nfp_percent": 98,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "ISU_ILCC",
+      "acquisition": "diversity_oneshot",
+      "nfp_percent": 92,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "ISU_ILCC",
+      "acquisition": "diversity_oneshot",
+      "nfp_percent": 95,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "ISU_ILCC",
+      "acquisition": "diversity_oneshot",
+      "nfp_percent": 98,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "ISU_ILCC",
+      "acquisition": "diversity_iterative",
+      "nfp_percent": 92,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "ISU_ILCC",
+      "acquisition": "diversity_iterative",
+      "nfp_percent": 95,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "ISU_ILCC",
+      "acquisition": "diversity_iterative",
+      "nfp_percent": 98,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "ISU_ILCC",
+      "acquisition": "coverage",
+      "nfp_percent": 92,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "ISU_ILCC",
+      "acquisition": "coverage",
+      "nfp_percent": 95,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "ISU_ILCC",
+      "acquisition": "coverage",
+      "nfp_percent": 98,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "ISU_ILCC",
+      "acquisition": "exploration",
+      "nfp_percent": 92,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "ISU_ILCC",
+      "acquisition": "exploration",
+      "nfp_percent": 95,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "ISU_ILCC",
+      "acquisition": "exploration",
+      "nfp_percent": 98,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "ISU_ILCC",
+      "acquisition": "exploitation",
+      "nfp_percent": 92,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "ISU_ILCC",
+      "acquisition": "exploitation",
+      "nfp_percent": 95,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "ISU_ILCC",
+      "acquisition": "exploitation",
+      "nfp_percent": 98,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "ISU_ILCC",
+      "acquisition": "hybrid",
+      "nfp_percent": 92,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "ISU_ILCC",
+      "acquisition": "hybrid",
+      "nfp_percent": 95,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "ISU_ILCC",
+      "acquisition": "hybrid",
+      "nfp_percent": 98,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Primary",
+      "acquisition": "random_selection",
+      "nfp_percent": 92,
+      "n_observations": 121,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Primary",
+      "acquisition": "random_selection",
+      "nfp_percent": 95,
+      "n_observations": 121,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Primary",
+      "acquisition": "random_selection",
+      "nfp_percent": 98,
+      "n_observations": 121,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Primary",
+      "acquisition": "diversity_oneshot",
+      "nfp_percent": 92,
+      "n_observations": 121,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Primary",
+      "acquisition": "diversity_oneshot",
+      "nfp_percent": 95,
+      "n_observations": 121,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Primary",
+      "acquisition": "diversity_oneshot",
+      "nfp_percent": 98,
+      "n_observations": 121,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Primary",
+      "acquisition": "diversity_iterative",
+      "nfp_percent": 92,
+      "n_observations": 121,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Primary",
+      "acquisition": "diversity_iterative",
+      "nfp_percent": 95,
+      "n_observations": 121,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Primary",
+      "acquisition": "diversity_iterative",
+      "nfp_percent": 98,
+      "n_observations": 121,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Primary",
+      "acquisition": "coverage",
+      "nfp_percent": 92,
+      "n_observations": 121,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Primary",
+      "acquisition": "coverage",
+      "nfp_percent": 95,
+      "n_observations": 121,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Primary",
+      "acquisition": "coverage",
+      "nfp_percent": 98,
+      "n_observations": 121,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Primary",
+      "acquisition": "exploration",
+      "nfp_percent": 92,
+      "n_observations": 121,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Primary",
+      "acquisition": "exploration",
+      "nfp_percent": 95,
+      "n_observations": 121,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Primary",
+      "acquisition": "exploration",
+      "nfp_percent": 98,
+      "n_observations": 121,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Primary",
+      "acquisition": "exploitation",
+      "nfp_percent": 92,
+      "n_observations": 121,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Primary",
+      "acquisition": "exploitation",
+      "nfp_percent": 95,
+      "n_observations": 121,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Primary",
+      "acquisition": "exploitation",
+      "nfp_percent": 98,
+      "n_observations": 121,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Primary",
+      "acquisition": "hybrid",
+      "nfp_percent": 92,
+      "n_observations": 121,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Primary",
+      "acquisition": "hybrid",
+      "nfp_percent": 95,
+      "n_observations": 121,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Primary",
+      "acquisition": "hybrid",
+      "nfp_percent": 98,
+      "n_observations": 121,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Second",
+      "acquisition": "random_selection",
+      "nfp_percent": 92,
+      "n_observations": 123,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Second",
+      "acquisition": "random_selection",
+      "nfp_percent": 95,
+      "n_observations": 123,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Second",
+      "acquisition": "random_selection",
+      "nfp_percent": 98,
+      "n_observations": 123,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Second",
+      "acquisition": "diversity_oneshot",
+      "nfp_percent": 92,
+      "n_observations": 123,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Second",
+      "acquisition": "diversity_oneshot",
+      "nfp_percent": 95,
+      "n_observations": 123,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Second",
+      "acquisition": "diversity_oneshot",
+      "nfp_percent": 98,
+      "n_observations": 123,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Second",
+      "acquisition": "diversity_iterative",
+      "nfp_percent": 92,
+      "n_observations": 123,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Second",
+      "acquisition": "diversity_iterative",
+      "nfp_percent": 95,
+      "n_observations": 123,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Second",
+      "acquisition": "diversity_iterative",
+      "nfp_percent": 98,
+      "n_observations": 123,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Second",
+      "acquisition": "coverage",
+      "nfp_percent": 92,
+      "n_observations": 123,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Second",
+      "acquisition": "coverage",
+      "nfp_percent": 95,
+      "n_observations": 123,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Second",
+      "acquisition": "coverage",
+      "nfp_percent": 98,
+      "n_observations": 123,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Second",
+      "acquisition": "exploration",
+      "nfp_percent": 92,
+      "n_observations": 123,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Second",
+      "acquisition": "exploration",
+      "nfp_percent": 95,
+      "n_observations": 123,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Second",
+      "acquisition": "exploration",
+      "nfp_percent": 98,
+      "n_observations": 123,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Second",
+      "acquisition": "exploitation",
+      "nfp_percent": 92,
+      "n_observations": 123,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Second",
+      "acquisition": "exploitation",
+      "nfp_percent": 95,
+      "n_observations": 123,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Second",
+      "acquisition": "exploitation",
+      "nfp_percent": 98,
+      "n_observations": 123,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Second",
+      "acquisition": "hybrid",
+      "nfp_percent": 92,
+      "n_observations": 123,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Second",
+      "acquisition": "hybrid",
+      "nfp_percent": 95,
+      "n_observations": 123,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "LSD_Second",
+      "acquisition": "hybrid",
+      "nfp_percent": 98,
+      "n_observations": 123,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "HUST",
+      "acquisition": "random_selection",
+      "nfp_percent": 92,
+      "n_observations": 146,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "HUST",
+      "acquisition": "random_selection",
+      "nfp_percent": 95,
+      "n_observations": 146,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "HUST",
+      "acquisition": "random_selection",
+      "nfp_percent": 98,
+      "n_observations": 146,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "HUST",
+      "acquisition": "diversity_oneshot",
+      "nfp_percent": 92,
+      "n_observations": 146,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "HUST",
+      "acquisition": "diversity_oneshot",
+      "nfp_percent": 95,
+      "n_observations": 146,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "HUST",
+      "acquisition": "diversity_oneshot",
+      "nfp_percent": 98,
+      "n_observations": 146,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "HUST",
+      "acquisition": "diversity_iterative",
+      "nfp_percent": 92,
+      "n_observations": 146,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "HUST",
+      "acquisition": "diversity_iterative",
+      "nfp_percent": 95,
+      "n_observations": 146,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "HUST",
+      "acquisition": "diversity_iterative",
+      "nfp_percent": 98,
+      "n_observations": 146,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "HUST",
+      "acquisition": "coverage",
+      "nfp_percent": 92,
+      "n_observations": 146,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "HUST",
+      "acquisition": "coverage",
+      "nfp_percent": 95,
+      "n_observations": 146,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "HUST",
+      "acquisition": "coverage",
+      "nfp_percent": 98,
+      "n_observations": 146,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "HUST",
+      "acquisition": "exploration",
+      "nfp_percent": 92,
+      "n_observations": 146,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "HUST",
+      "acquisition": "exploration",
+      "nfp_percent": 95,
+      "n_observations": 146,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "HUST",
+      "acquisition": "exploration",
+      "nfp_percent": 98,
+      "n_observations": 146,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "HUST",
+      "acquisition": "exploitation",
+      "nfp_percent": 92,
+      "n_observations": 146,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "HUST",
+      "acquisition": "exploitation",
+      "nfp_percent": 95,
+      "n_observations": 146,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "HUST",
+      "acquisition": "exploitation",
+      "nfp_percent": 98,
+      "n_observations": 146,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "HUST",
+      "acquisition": "hybrid",
+      "nfp_percent": 92,
+      "n_observations": 146,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "HUST",
+      "acquisition": "hybrid",
+      "nfp_percent": 95,
+      "n_observations": 146,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "HUST",
+      "acquisition": "hybrid",
+      "nfp_percent": 98,
+      "n_observations": 146,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "KIT",
+      "acquisition": "random_selection",
+      "nfp_percent": 92,
+      "n_observations": 107,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "KIT",
+      "acquisition": "random_selection",
+      "nfp_percent": 95,
+      "n_observations": 107,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "KIT",
+      "acquisition": "random_selection",
+      "nfp_percent": 98,
+      "n_observations": 107,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "KIT",
+      "acquisition": "diversity_oneshot",
+      "nfp_percent": 92,
+      "n_observations": 107,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "KIT",
+      "acquisition": "diversity_oneshot",
+      "nfp_percent": 95,
+      "n_observations": 107,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "KIT",
+      "acquisition": "diversity_oneshot",
+      "nfp_percent": 98,
+      "n_observations": 107,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "KIT",
+      "acquisition": "diversity_iterative",
+      "nfp_percent": 92,
+      "n_observations": 107,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "KIT",
+      "acquisition": "diversity_iterative",
+      "nfp_percent": 95,
+      "n_observations": 107,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "KIT",
+      "acquisition": "diversity_iterative",
+      "nfp_percent": 98,
+      "n_observations": 107,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "KIT",
+      "acquisition": "coverage",
+      "nfp_percent": 92,
+      "n_observations": 107,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "KIT",
+      "acquisition": "coverage",
+      "nfp_percent": 95,
+      "n_observations": 107,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "KIT",
+      "acquisition": "coverage",
+      "nfp_percent": 98,
+      "n_observations": 107,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "KIT",
+      "acquisition": "exploration",
+      "nfp_percent": 92,
+      "n_observations": 107,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "KIT",
+      "acquisition": "exploration",
+      "nfp_percent": 95,
+      "n_observations": 107,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "KIT",
+      "acquisition": "exploration",
+      "nfp_percent": 98,
+      "n_observations": 107,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "KIT",
+      "acquisition": "exploitation",
+      "nfp_percent": 92,
+      "n_observations": 107,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "KIT",
+      "acquisition": "exploitation",
+      "nfp_percent": 95,
+      "n_observations": 107,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "KIT",
+      "acquisition": "exploitation",
+      "nfp_percent": 98,
+      "n_observations": 107,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "KIT",
+      "acquisition": "hybrid",
+      "nfp_percent": 92,
+      "n_observations": 107,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "KIT",
+      "acquisition": "hybrid",
+      "nfp_percent": 95,
+      "n_observations": 107,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "KIT",
+      "acquisition": "hybrid",
+      "nfp_percent": 98,
+      "n_observations": 107,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "Formation",
+      "acquisition": "random_selection",
+      "nfp_percent": 92,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "Formation",
+      "acquisition": "random_selection",
+      "nfp_percent": 95,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "Formation",
+      "acquisition": "random_selection",
+      "nfp_percent": 98,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "Formation",
+      "acquisition": "diversity_oneshot",
+      "nfp_percent": 92,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "Formation",
+      "acquisition": "diversity_oneshot",
+      "nfp_percent": 95,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "Formation",
+      "acquisition": "diversity_oneshot",
+      "nfp_percent": 98,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "Formation",
+      "acquisition": "diversity_iterative",
+      "nfp_percent": 92,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "Formation",
+      "acquisition": "diversity_iterative",
+      "nfp_percent": 95,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "Formation",
+      "acquisition": "diversity_iterative",
+      "nfp_percent": 98,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "Formation",
+      "acquisition": "coverage",
+      "nfp_percent": 92,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "Formation",
+      "acquisition": "coverage",
+      "nfp_percent": 95,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "Formation",
+      "acquisition": "coverage",
+      "nfp_percent": 98,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "Formation",
+      "acquisition": "exploration",
+      "nfp_percent": 92,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "Formation",
+      "acquisition": "exploration",
+      "nfp_percent": 95,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "Formation",
+      "acquisition": "exploration",
+      "nfp_percent": 98,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "Formation",
+      "acquisition": "exploitation",
+      "nfp_percent": 92,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "Formation",
+      "acquisition": "exploitation",
+      "nfp_percent": 95,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "Formation",
+      "acquisition": "exploitation",
+      "nfp_percent": 98,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "Formation",
+      "acquisition": "hybrid",
+      "nfp_percent": 92,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "Formation",
+      "acquisition": "hybrid",
+      "nfp_percent": 95,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "Formation",
+      "acquisition": "hybrid",
+      "nfp_percent": 98,
+      "n_observations": 136,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "TRI_Tesla",
+      "acquisition": "random_selection",
+      "nfp_percent": 92,
+      "n_observations": 139,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "TRI_Tesla",
+      "acquisition": "random_selection",
+      "nfp_percent": 95,
+      "n_observations": 139,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "TRI_Tesla",
+      "acquisition": "random_selection",
+      "nfp_percent": 98,
+      "n_observations": 139,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "TRI_Tesla",
+      "acquisition": "diversity_oneshot",
+      "nfp_percent": 92,
+      "n_observations": 139,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "TRI_Tesla",
+      "acquisition": "diversity_oneshot",
+      "nfp_percent": 95,
+      "n_observations": 139,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "TRI_Tesla",
+      "acquisition": "diversity_oneshot",
+      "nfp_percent": 98,
+      "n_observations": 139,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "TRI_Tesla",
+      "acquisition": "diversity_iterative",
+      "nfp_percent": 92,
+      "n_observations": 139,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "TRI_Tesla",
+      "acquisition": "diversity_iterative",
+      "nfp_percent": 95,
+      "n_observations": 139,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "TRI_Tesla",
+      "acquisition": "diversity_iterative",
+      "nfp_percent": 98,
+      "n_observations": 139,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "TRI_Tesla",
+      "acquisition": "coverage",
+      "nfp_percent": 92,
+      "n_observations": 139,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "TRI_Tesla",
+      "acquisition": "coverage",
+      "nfp_percent": 95,
+      "n_observations": 139,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "TRI_Tesla",
+      "acquisition": "coverage",
+      "nfp_percent": 98,
+      "n_observations": 139,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "TRI_Tesla",
+      "acquisition": "exploration",
+      "nfp_percent": 92,
+      "n_observations": 139,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "TRI_Tesla",
+      "acquisition": "exploration",
+      "nfp_percent": 95,
+      "n_observations": 139,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "TRI_Tesla",
+      "acquisition": "exploration",
+      "nfp_percent": 98,
+      "n_observations": 139,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "TRI_Tesla",
+      "acquisition": "exploitation",
+      "nfp_percent": 92,
+      "n_observations": 139,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "TRI_Tesla",
+      "acquisition": "exploitation",
+      "nfp_percent": 95,
+      "n_observations": 139,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "TRI_Tesla",
+      "acquisition": "exploitation",
+      "nfp_percent": 98,
+      "n_observations": 139,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "TRI_Tesla",
+      "acquisition": "hybrid",
+      "nfp_percent": 92,
+      "n_observations": 139,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "TRI_Tesla",
+      "acquisition": "hybrid",
+      "nfp_percent": 95,
+      "n_observations": 139,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    },
+    {
+      "dataset": "TRI_Tesla",
+      "acquisition": "hybrid",
+      "nfp_percent": 98,
+      "n_observations": 139,
+      "n_trials": 10,
+      "n_feature_model_combinations": 15
+    }
+  ],
+  "nfp_thresholds": [
+    92,
+    95,
+    98
+  ],
+  "primary_nfp_threshold": 95,
+  "sensitivity_nfp_thresholds": [
+    92,
+    98
+  ],
+  "center": "median",
+  "interval": "Q25-Q75",
+  "interval_definition": "Descriptive interquartile range; not a confidence interval",
+  "filter": "positive_attainable_gain == True and reached == True",
+  "dataset_duration_units": {
+    "MIT": "cycles",
+    "ISU_ILCC": "weeks",
+    "LSD_Primary": "cycles",
+    "LSD_Second": "cycles",
+    "HUST": "cycles",
+    "KIT": "EFC",
+    "Formation": "cycles",
+    "TRI_Tesla": "EFC"
+  },
+  "dataset_order": [
+    "MIT",
+    "ISU_ILCC",
+    "LSD_Primary",
+    "LSD_Second",
+    "HUST",
+    "KIT",
+    "Formation",
+    "TRI_Tesla"
+  ],
+  "acquisition_order": [
+    "random_selection",
+    "diversity_oneshot",
+    "diversity_iterative",
+    "coverage",
+    "exploration",
+    "exploitation",
+    "hybrid"
+  ],
+  "summary_rows": 168,
+  "trial_distribution_rows": 1680,
+  "trial_distribution_source": "fig_nfp_trial_level_distributions.csv",
+  "represented_input_observations": 22008,
+  "input_sources": [
+    {
+      "filename": "fig_nfp_performance_indicator_summary.csv",
+      "sha256": "46710b2d103ea0671987d132273bc23e6ee3b540d2ec88d6a34ed89f422c6d9d",
+      "rows": 168
+    },
+    {
+      "filename": "fig_nfp_trial_level_distributions.csv",
+      "sha256": "f6593424364fabaa6ebb7350dd21b0c785974ed90b02c897b16d4c2d253c01b1",
+      "rows": 1680
+    }
+  ],
+  "runtime": {
+    "python": "3.12.7",
+    "matplotlib": "3.10.1",
+    "pandas": "2.2.3",
+    "numpy": "2.1.3"
+  },
+  "exports": [
+    "fig_nfp_performance_indicator_summary.png"
+  ],
+  "measured_exports": {
+    "png": {
+      "bytes": 1579123,
+      "sha256": "3894533ac78ef837ced7f1eeab11c8a9b342fd1bac790d4a0a21e73851d68f28",
+      "pixels": [
+        5040,
+        5880
+      ],
+      "mode": "RGB",
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    }
+  }
+}

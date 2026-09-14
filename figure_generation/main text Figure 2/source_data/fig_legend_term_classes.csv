@@ -1,0 +1,4 @@
+label,color,order
+Main effect,#4776A8,0
+Pairwise interaction,#D39A45,1
+Residual,#9A9A9A,2

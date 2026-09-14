@@ -1,0 +1,16 @@
+feature_set,model,median_early_gain_pp,n_configurations
+set1_dQn_m,AE_ENet,-0.07354351661141088,48
+set1_dQn_m,GPR,0.25064904491520745,48
+set1_dQn_m,RF,-0.02593025066053242,48
+set2_early_soh,AE_ENet,-0.40959684342739383,48
+set2_early_soh,GPR,1.4202688273338904,48
+set2_early_soh,RF,0.8534380489089982,48
+set3_features,AE_ENet,0.18989115922876026,48
+set3_features,GPR,0.41212477669241165,48
+set3_features,RF,-0.070296628927904,48
+set4_features_metadata,AE_ENet,0.7690010116662293,48
+set4_features_metadata,GPR,0.18493329683699572,48
+set4_features_metadata,RF,-0.15899522249096154,48
+set5_features_metadata_corr95,AE_ENet,0.5909388615280176,48
+set5_features_metadata_corr95,GPR,0.2931476868048225,48
+set5_features_metadata_corr95,RF,-0.03356273786619271,48

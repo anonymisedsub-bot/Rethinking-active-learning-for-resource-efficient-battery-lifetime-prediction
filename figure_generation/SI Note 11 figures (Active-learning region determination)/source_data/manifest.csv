@@ -1,0 +1,2 @@
+filename,sha256,n_rows,n_columns,role
+error_reduction_vs_random_learning_curves.csv,e78487d4f719d171f372e42a50c93bedf6bcd4956adac7a1390f3de7ac0aaadb,8550,12,figure source data

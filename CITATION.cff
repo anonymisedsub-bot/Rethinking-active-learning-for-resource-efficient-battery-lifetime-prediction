@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, processed data or figure source tables, cite this repository and the relevant upstream datasets."
+title: "Reproducibility package for Navigating Battery Ageing Space with Active Learning for Test-Efficient Lifetime Prediction from Early-Life Data"
+type: software
+version: 1.0.0
+date-released: 2026-09-02
+license: MIT
+repository-code: "https://github.com/anonymisedsub-bot/Rethinking-active-learning-for-resource-efficient-battery-lifetime-prediction"
+authors:
+  - family-names: Guo
+    given-names: Ruohan
+    affiliation: The Hong Kong Polytechnic University
+  - family-names: Tian
+    given-names: Jinpeng
+    email: jinpeng.tian@polyu.edu.hk
+    affiliation: The Hong Kong Polytechnic University
+  - family-names: Chung
+    given-names: Chi Yung
+    email: c.y.chung@polyu.edu.hk
+    affiliation: The Hong Kong Polytechnic University
+keywords:
+  - active learning
+  - battery lifetime prediction
+  - lithium-ion batteries
+  - deep learning
+  - reproducible research
+abstract: "A modular release containing eight processed battery-ageing datasets, active-learning and deep-learning benchmark code, and source-data-driven manuscript figure modules."

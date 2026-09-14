@@ -1,0 +1,7 @@
+Data and figure reuse notice
+
+Unless a file is identified as third-party-derived below, the authors' original figure source tables, manifests and rendered figures in `figure_generation/` are made available under the Creative Commons Attribution 4.0 International licence (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+The processed `.mat` files in `data/` are derived from third-party public datasets and are not relicensed by this notice. The source-specific licence and attribution requirements recorded in `data/DATASET_SOURCES.md` apply. In particular, the Formation and TRI-Tesla source records state CC BY-NC 4.0 conditions. Commercial reuse of those data is not authorised by this repository.
+
+The cited Zenodo record for `data_LSD_primary.mat` and `data_LSD_second.mat` states CC BY 4.0. No repository-level statement supersedes upstream access, attribution, non-commercial or other reuse restrictions.

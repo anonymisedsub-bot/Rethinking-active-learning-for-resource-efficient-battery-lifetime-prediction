@@ -1,0 +1,26 @@
+PASS | Complete dataset-acquisition-threshold grid | summary_groups=168; expected=168
+PASS | Heterogeneous panel types | panels=8; unique_types=8
+PASS | Panel-a 2x3 rule-versus-random small multiples | six_nonrandom_rules; shared_xy_limits; shared_axis_labels; one_shared_legend
+PASS | Asymmetric panel geometry | hero_wider_than_heatmap; hero_taller_than_trend; cycles_wider_than_EFC
+PASS | Figure text and legends stay inside canvas | {"all_legends_within_canvas": true, "all_text_within_canvas": true, "legends_clear_of_data_axes": true, "panel_text_clear_of_other_data_axes": true}
+PASS | Legends and panel text avoid other data axes | {"all_legends_within_canvas": true, "all_text_within_canvas": true, "legends_clear_of_data_axes": true, "panel_text_clear_of_other_data_axes": true}
+PASS | Exact n disclosure | panel_definitions=8; exact_group_records=168
+PASS | Variability definition | panel-specific center, spread, statistical unit, and n definition recorded
+PASS | Duration units remain dataset-native | observed=['EFC', 'cycles', 'weeks']
+PASS | Publication raster resolution contract | enforced=True; dpi=600
+PASS | PNG-only export policy | formats=['png']
+PASS | Complete NFP thresholds | observed=[92, 95, 98]
+PASS | Primary and sensitivity NFP roles | primary=NFP95; sensitivity=NFP92,NFP98; panel_d_primary_only; panel_h_absolute_threshold_half_violins
+PASS | Requested panel polish contract | titles=off; panel_letters=off; unique_acquisition_markers=7; marker_and_bar_alpha=0.6; axis_linewidth=0.4
+PASS | Heatmap palette, typography, labels, and 3:3.5 layout | panel_a_height=55mm; heatmap=blue_white_red_without_cell_bubbles_and_centered_x_labels; colorbar=plain_borderless; font_delta=2pt; labels=revised; x_tick_rotation_b=35deg_e_f_g=0deg; violin_legends=above_center; y_ranges=tightened; aspect=3:3.5
+PASS | Trial-level grouped half-violin contract | e-g=5+2+1_datasets_x_3_vertical_half_violins_with_7_acquisition_markers; h=8_datasets_x_3_horizontal_half_violins_with_10_trial_points_and_black_median_connectors
+PASS | Duration threshold median connectors | e=5_f=2_g=1_dataset_connectors; order=NFP92_to_NFP95_to_NFP98; color=black; absolute_duration_preserved
+PASS | Complete split-panel export bundle | panels=8; formats=['png']
+PASS | Embedded violin-panel legends and standalone legend bundle | embedded_split_panel_legends=['e', 'f', 'g', 'h']; export_only_legend_panels=['c']; policy_valid=True; composite_retains_legends=True; legend_panels=['a', 'c', 'e', 'f', 'g', 'h']; panel_b_colorbar_attached=True
+PASS | Split-panel axes preserve composite geometry | independent crops retain the original axes width and height in inches
+PASS | Source-data round trip | summary_rows=168; trial_rows=1680
+PASS | Exact raster dimensions (png) | observed=[5040, 5880]; expected=[5040, 5880]
+PASS | Opaque RGB raster (png) | mode=RGB
+PASS | Raster resolution (png) | observed=[599.9988, 599.9988]; expected=600
+PASS | Split-panel opaque RGB raster resolution (png) | panels=8; dpi=600
+PASS | Standalone-legend opaque RGB raster resolution (png) | legends=6; dpi=600

@@ -1,0 +1,4 @@
+factor,grouped_contribution_pp,full_model_r2,reduced_model_r2,response,factor_code,factor_order,variance_explained_pct,response_code,response_label
+Dataset,75.55987176855481,0.881360762818046,0.12576204513249778,Full-pool MAPE,A,0,75.55987176855481,full_pool,Full-pool prediction performance
+Feature set,18.61971810834143,0.881360762818046,0.6951635817346317,Full-pool MAPE,B,1,18.61971810834143,full_pool,Full-pool prediction performance
+Prediction model,11.38073928879848,0.881360762818046,0.7675533699300612,Full-pool MAPE,C,2,11.38073928879848,full_pool,Full-pool prediction performance
